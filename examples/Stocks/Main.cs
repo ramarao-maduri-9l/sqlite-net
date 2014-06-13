@@ -29,6 +29,7 @@ namespace Stocks.CommandLine
 			if (stock == null) {
 				Console.WriteLine ("I don't know about {0}", stockSymbol);
 				Console.WriteLine ("Run \"up {0}\" to update the stock", stockSymbol);
+				console.WriteLine("merge");
 			} else {
 				
 				//

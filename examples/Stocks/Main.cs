@@ -31,7 +31,6 @@ namespace Stocks.CommandLine
 				Console.WriteLine ("Run \"up {0}\" to update the stock", stockSymbol);
 				Console.WriteLine("merge");
 
-                Console.WriteLine("test");
 
 			} else {
 				

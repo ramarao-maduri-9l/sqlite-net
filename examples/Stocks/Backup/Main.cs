@@ -25,14 +25,10 @@ namespace Stocks.CommandLine
 		void DisplayStock (string stockSymbol)
 		{
 			var stock = _db.QueryStock (stockSymbol);
-		
+			
 			if (stock == null) {
 				Console.WriteLine ("I don't know about {0}", stockSymbol);
 				Console.WriteLine ("Run \"up {0}\" to update the stock", stockSymbol);
-				Console.WriteLine("merge");
-
-                Console.WriteLine("test");
-
 			} else {
 				
 				//
